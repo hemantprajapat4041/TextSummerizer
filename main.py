@@ -1,3 +1,4 @@
+from TextSummerizer.pipeline.stage_4_model_evaluation_training_pipeline import ModelEvaluationTrainingPipeline
 from src.TextSummerizer.pipeline.stage_2_data_transformation_pipeline import DataTransformationTrainingPipeline
 from src.TextSummerizer.logging import logger
 from src.TextSummerizer.pipeline.stage_1_data_ingestion_pipeline import DataIngestionTrainingPipeline
@@ -34,6 +35,18 @@ try:
     logger.info(f"stage{STAGE_NAME} INITIATED")
     model_trainer_pipeline=ModelTrainerTrainingPipeline()
     model_trainer_pipeline.initiate_model_training()
+    logger.info(f"stage{STAGE_NAME} COMPLETED")
+
+except Exception as e:
+    logger.exception(e)
+    raise(e)
+
+STAGE_NAME = 'Model Evaluation Stage'
+
+try:
+    logger.info(f"stage{STAGE_NAME} INITIATED")
+    model_evaluation_pipeline=ModelEvaluationTrainingPipeline()
+    model_evaluation_pipeline.initiate_model_evaluation()
     logger.info(f"stage{STAGE_NAME} COMPLETED")
 
 except Exception as e:
