@@ -102,3 +102,17 @@ Source-Age: 0
 2025-09-03 17:02:03,172 - INFO - created directory at :artifacts
 2025-09-03 17:02:03,173 - INFO - created directory at :artifacts/data_transformation
 2025-09-03 17:02:08,116 - INFO - stageData Transformation Stage COMPLETED
+2025-09-03 17:34:52,864 - INFO - yaml file :config\config.yaml loaded successfully
+2025-09-03 17:34:52,875 - INFO - yaml file :F:\TextSummerizer\params.yaml loaded successfully
+2025-09-03 17:34:52,879 - INFO - created directory at :artifacts
+2025-09-03 17:34:52,881 - INFO - created directory at :artifacts/model_trainer
+2025-09-03 17:35:08,520 - INFO - yaml file :config\config.yaml loaded successfully
+2025-09-03 17:35:08,523 - INFO - yaml file :F:\TextSummerizer\params.yaml loaded successfully
+2025-09-03 17:35:08,524 - INFO - created directory at :artifacts
+2025-09-03 17:35:08,525 - INFO - created directory at :artifacts/model_trainer
+2025-09-03 17:35:12,995 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-09-03 17:37:18,894 - INFO - yaml file :config\config.yaml loaded successfully
+2025-09-03 17:37:18,903 - INFO - yaml file :F:\TextSummerizer\params.yaml loaded successfully
+2025-09-03 17:37:18,906 - INFO - created directory at :artifacts
+2025-09-03 17:37:18,908 - INFO - created directory at :artifacts/model_trainer
+2025-09-03 17:37:22,365 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
